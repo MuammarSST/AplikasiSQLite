@@ -1,5 +1,5 @@
-name: flutter_app
-description: A new Flutter application.
+name: flutter_php
+description: Very simple and straightforward example of CRUD(Create, Read, Update, Delete) using Flutter & PHP
 
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
@@ -19,11 +19,12 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  http: 0.12.0
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
-  http_server: ^0.9.8+3
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -39,18 +40,6 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
-
-  #amar menambah ini
-  assets:
-    - assets/backgroud.png
-    - assets/user.png
-
-  fonts:
-    - family: Nunito
-      fonts:
-        - asset: assets/Nunito.ttf
-
-  #amar menambah ini
 
   # To add assets to your application, add an assets section, like this:
   # assets:
